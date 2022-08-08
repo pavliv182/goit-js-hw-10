@@ -1,6 +1,42 @@
 * {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h2 {
+  margin-right: 10px;
+}
+
+p {
+  font-weight: 700;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  margin-right: 10px;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -10,6 +46,8 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  list-style: none;
 }
 
 #search-box {
@@ -18,3 +56,13 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-flag {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+/* .country-info-content {
+  margin-bottom: 10px;
+} */
